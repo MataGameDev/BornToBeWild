@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.011478062}
   m_AnchorMax: {x: 0.18400002, y: 0.12126097}
-  m_AnchoredPosition: {x: 2.7128906, y: -0.49816895}
+  m_AnchoredPosition: {x: 2.7128906, y: -0.49829102}
   m_SizeDelta: {x: -0.08660126, y: -0.78948975}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &805544
@@ -441,7 +441,6 @@ RectTransform:
   - {fileID: 1873418607}
   - {fileID: 777856537}
   - {fileID: 805543}
-  - {fileID: 170591740}
   m_Father: {fileID: 897557918}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -487,82 +486,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157733392}
-  m_CullTransparentMesh: 1
---- !u!1 &170591739
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 170591740}
-  - component: {fileID: 170591742}
-  - component: {fileID: 170591741}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &170591740
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170591739}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 157733393}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.51432, y: -98.065}
-  m_SizeDelta: {x: 774.1555, y: 1676.6}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &170591741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170591739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b5ac752de8c2bc847a10a50089bf6fba, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &170591742
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170591739}
   m_CullTransparentMesh: 1
 --- !u!1 &179560255
 GameObject:
@@ -695,10 +618,10 @@ RectTransform:
   m_Father: {fileID: 157733393}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.744}
-  m_AnchorMax: {x: 0.18400002, y: 0.7835209}
-  m_AnchoredPosition: {x: 2.2128906, y: -433.34552}
-  m_SizeDelta: {x: 0.9134, y: 128.9634}
+  m_AnchorMin: {x: 0, y: 0.4853916}
+  m_AnchorMax: {x: 0.18400002, y: 0.58900005}
+  m_AnchoredPosition: {x: 2.2128906, y: 2.65448}
+  m_SizeDelta: {x: 0.91339874, y: 6.963379}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &195891412
 MonoBehaviour:
@@ -1101,6 +1024,113 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266367756}
   m_CullTransparentMesh: 1
+--- !u!1 &326430085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326430086}
+  - component: {fileID: 326430088}
+  - component: {fileID: 326430087}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &326430086
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326430085}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1508062237}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.4996643, y: 0.50164795}
+  m_SizeDelta: {x: 0.5300293, y: -0.30004883}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &326430087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326430085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Sobrevivir en la selva puede ser una experiencia intensa y desafiante,
+    pero si sigues los pasos correctos, aumentar\xE1s tus posibilidades de supervivencia.
+    Aqu\xED hay algunos consejos clave para dar tus primeros pasos en un entorno
+    selv\xE1tico:\r\n\r\nEncuentra agua: El agua es esencial para la supervivencia.
+    Busca arroyos, r\xEDos o manantiales en la selva. Si no encuentras ninguna fuente
+    de agua visible, busca pistas, como vegetaci\xF3n densa o aves y animales congreg\xE1ndose
+    en un \xE1rea espec\xEDfica, lo que podr\xEDa indicar la presencia de agua subterr\xE1nea.
+    Aseg\xFArate de purificar el agua antes de beberla para evitar enfermedades.\r\n\r\nConstruye
+    un refugio: La selva puede ser inh\xF3spita y llena de peligros, por lo que necesitas
+    protegerte de los elementos y los animales. Busca un \xE1rea elevada y seca para
+    construir tu refugio. Puedes utilizar ramas, hojas grandes y lianas para crear
+    un refugio resistente y que te proporcione cobertura contra la lluvia y el sol.\r\n\r\nAprende
+    sobre los recursos naturales: Familiar\xEDzate con los recursos naturales de
+    la selva que pueden ayudarte a sobrevivir. Aprende a identificar plantas comestibles
+    y medicinales, as\xED como fuentes de prote\xEDnas, como insectos o peque\xF1os
+    animales. Tambi\xE9n debes tener cuidado con plantas y animales venenosos, y
+    evitarlos en la medida de lo posible.\r\n\r\nOrientaci\xF3n y navegaci\xF3n:
+    La selva puede ser un laberinto confuso, por lo que es importante mantener una
+    idea de tu ubicaci\xF3n. Aprende a leer los signos naturales, como la posici\xF3n
+    del sol, los ruidos de los r\xEDos o los patrones de crecimiento de la vegetaci\xF3n,
+    para orientarte. Si tienes una br\xFAjula, \xFAsala como una herramienta adicional.\r\n\r\nMant\xE9n
+    una actitud positiva y persevera: La selva puede ser desafiante f\xEDsica y mentalmente,
+    pero mantener una actitud positiva y perseverar es crucial. Mant\xE9n la calma,
+    enf\xF3cate en las tareas necesarias y busca soluciones creativas para superar
+    los obst\xE1culos que enfrentes.\r\n\r\nRecuerda, estos son solo los primeros
+    pasos para la supervivencia en la selva. Es esencial obtener conocimientos y
+    habilidades especializadas, as\xED como llevar equipo adecuado, antes de aventurarte
+    en este entorno hostil y complejo."
+--- !u!222 &326430088
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326430085}
+  m_CullTransparentMesh: 1
 --- !u!1 &366397220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,82 +1210,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366397220}
-  m_CullTransparentMesh: 1
---- !u!1 &425872351
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 425872352}
-  - component: {fileID: 425872354}
-  - component: {fileID: 425872353}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &425872352
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425872351}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 880039082}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.51432, y: -98.065}
-  m_SizeDelta: {x: 774.1555, y: 1676.6}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &425872353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425872351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b5ac752de8c2bc847a10a50089bf6fba, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &425872354
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425872351}
   m_CullTransparentMesh: 1
 --- !u!1 &448794601
 GameObject:
@@ -1359,82 +1313,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &461320265
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 461320266}
-  - component: {fileID: 461320268}
-  - component: {fileID: 461320267}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &461320266
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461320265}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1846357861}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.51432, y: -98.065}
-  m_SizeDelta: {x: 774.1555, y: 1676.6}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &461320267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461320265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b5ac752de8c2bc847a10a50089bf6fba, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &461320268
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461320265}
-  m_CullTransparentMesh: 1
 --- !u!1 &477467921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,6 +1345,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1682643780}
+  - {fileID: 1265071551}
   m_Father: {fileID: 880039082}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1657,13 +1536,14 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1079811119}
+  - {fileID: 1061697972}
   m_Father: {fileID: 157733393}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.85700005}
-  m_AnchorMax: {x: 0.18400002, y: 0.89800006}
-  m_AnchoredPosition: {x: 0.47973633, y: -83.52405}
-  m_SizeDelta: {x: 0.9134, y: 121.783}
+  m_AnchorMin: {x: 0, y: 0.78247833}
+  m_AnchorMax: {x: 0.18400002, y: 0.8880001}
+  m_AnchoredPosition: {x: 0.47973633, y: -1.5240479}
+  m_SizeDelta: {x: 0.9134002, y: -2.2170029}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &596918137
 MonoBehaviour:
@@ -2106,10 +1986,10 @@ RectTransform:
   m_Father: {fileID: 157733393}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.799}
-  m_AnchorMax: {x: 0.18400002, y: 0.8385209}
-  m_AnchoredPosition: {x: 2.2128906, y: -262.58008}
-  m_SizeDelta: {x: 0.9134, y: 123.7025}
+  m_AnchorMin: {x: 0, y: 0.63465226}
+  m_AnchorMax: {x: 0.18400002, y: 0.7303479}
+  m_AnchoredPosition: {x: 2.2128906, y: -0.080078125}
+  m_SizeDelta: {x: 0.91339874, y: 12.702499}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &809401081
 MonoBehaviour:
@@ -2267,7 +2147,6 @@ RectTransform:
   - {fileID: 2122401275}
   - {fileID: 1462334570}
   - {fileID: 1481925627}
-  - {fileID: 425872352}
   m_Father: {fileID: 897557918}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2415,7 +2294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &897557918
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2723,6 +2602,83 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959184876}
+  m_CullTransparentMesh: 1
+--- !u!1 &1061697971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1061697972}
+  - component: {fileID: 1061697974}
+  - component: {fileID: 1061697973}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1061697972
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061697971}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2135662995}
+  m_Father: {fileID: 596918136}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 539.6049, y: -745.6174}
+  m_SizeDelta: {x: 655.4721, y: 1492.1532}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1061697973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061697971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1061697974
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061697971}
   m_CullTransparentMesh: 1
 --- !u!1 &1070660719
 GameObject:
@@ -3403,6 +3359,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250072019}
   m_CullTransparentMesh: 1
+--- !u!1 &1265071550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1265071551}
+  - component: {fileID: 1265071553}
+  - component: {fileID: 1265071552}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1265071551
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265071550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1543572788}
+  m_Father: {fileID: 477467922}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 542.0379, y: -743.42413}
+  m_SizeDelta: {x: 666.3317, y: 1489.4324}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1265071552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265071550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1265071553
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265071550}
+  m_CullTransparentMesh: 1
 --- !u!1 &1283949244
 GameObject:
   m_ObjectHideFlags: 0
@@ -3600,7 +3633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.011478062}
   m_AnchorMax: {x: 0.18400002, y: 0.12126097}
-  m_AnchoredPosition: {x: 2.7128906, y: -0.49816895}
+  m_AnchoredPosition: {x: 2.7128906, y: -0.49829102}
   m_SizeDelta: {x: -0.08660126, y: -0.78948975}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299437024
@@ -3924,7 +3957,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.011478062}
   m_AnchorMax: {x: 0.18400002, y: 0.12126097}
-  m_AnchoredPosition: {x: 2.7128906, y: -0.49816895}
+  m_AnchoredPosition: {x: 2.7128906, y: -0.49829102}
   m_SizeDelta: {x: -0.08660126, y: -0.78948975}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481925628
@@ -4203,7 +4236,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4251,6 +4284,83 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1508062236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1508062237}
+  - component: {fileID: 1508062239}
+  - component: {fileID: 1508062238}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1508062237
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508062236}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 326430086}
+  m_Father: {fileID: 2055198257}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 541.03595, y: -744.8627}
+  m_SizeDelta: {x: 661.6788, y: 1492.3096}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1508062238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508062236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1508062239
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508062236}
+  m_CullTransparentMesh: 1
 --- !u!1 &1530163643
 GameObject:
   m_ObjectHideFlags: 0
@@ -4330,6 +4440,116 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530163643}
+  m_CullTransparentMesh: 1
+--- !u!1 &1543572787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543572788}
+  - component: {fileID: 1543572790}
+  - component: {fileID: 1543572789}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1543572788
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543572787}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1265071551}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0018921, y: -0.0060177}
+  m_SizeDelta: {x: 866.18, y: 1689.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1543572789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543572787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\r\nSobrevivir en el desierto puede ser un desaf\xEDo extremo, pero si
+    sigues los pasos correctos, aumentar\xE1s tus posibilidades de supervivencia.
+    Aqu\xED hay algunos consejos clave para dar tus primeros pasos en un entorno
+    des\xE9rtico:\r\n\r\nConserva el agua: El agua es tu recurso m\xE1s valioso en
+    el desierto. Bebe agua regularmente y evita la deshidrataci\xF3n. Si no tienes
+    agua, busca fuentes potenciales, como oasis, lechos secos de r\xEDos o plantas
+    que puedan contener l\xEDquido. Tambi\xE9n puedes utilizar condensaci\xF3n o
+    t\xE9cnicas de recolecci\xF3n de agua para obtener la humedad del ambiente.\r\n\r\nEncuentra
+    refugio: El calor extremo del desierto puede ser peligroso, por lo que es importante
+    protegerte del sol. Busca sombra natural, como rocas grandes o \xE1rboles dispersos,
+    y evita la exposici\xF3n directa al sol durante las horas m\xE1s calurosas del
+    d\xEDa. Si es necesario, construye un refugio improvisado utilizando lonas, ramas
+    o cualquier material disponible para crear un \xE1rea sombreada.\r\n\r\nConoce
+    las se\xF1ales de orientaci\xF3n: En el vasto desierto, es f\xE1cil perderse.
+    Aprende a leer las se\xF1ales naturales, como las estrellas, las dunas de arena
+    o las formaciones rocosas, para mantener una idea de tu direcci\xF3n. Si llevas
+    una br\xFAjula, \xFAsala como una herramienta adicional.\r\n\r\nConsigue alimentos:
+    Aunque la obtenci\xF3n de alimentos en el desierto puede ser dif\xEDcil, hay
+    opciones limitadas disponibles. Busca plantas comestibles, como cactus o hierbas
+    del desierto. Tambi\xE9n puedes intentar atrapar peque\xF1os animales o buscar
+    rastros de agua que puedan albergar vida, lo que atraer\xE1 a los animales.\r\n\r\nProt\xE9gete
+    del calor: El calor extremo puede causar insolaci\xF3n y agotamiento. Viste ropa
+    ligera y de colores claros para reflejar el sol y protege tu cabeza con un sombrero
+    o pa\xF1uelo. Evita hacer esfuerzos f\xEDsicos intensos durante las horas m\xE1s
+    calurosas del d\xEDa y descansa en la sombra siempre que sea posible.\r\n\r\nMant\xE9n
+    la calma y conserva energ\xEDa: La situaci\xF3n en el desierto puede ser abrumadora,
+    pero mantener la calma y conservar energ\xEDa es esencial para la supervivencia.
+    Evita el p\xE1nico y administra tus recursos y movimientos de manera estrat\xE9gica.\r\n\r\nRecuerda,
+    estos pasos iniciales son solo una introducci\xF3n b\xE1sica a la supervivencia
+    en el desierto. Obtener conocimientos y habilidades especializados antes de aventurarse
+    en un entorno tan implacable es altamente recomendable."
+--- !u!222 &1543572790
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543572787}
   m_CullTransparentMesh: 1
 --- !u!1 &1553916054
 GameObject:
@@ -4963,7 +5183,6 @@ RectTransform:
   - {fileID: 886517000}
   - {fileID: 959184877}
   - {fileID: 1299437023}
-  - {fileID: 461320266}
   m_Father: {fileID: 897557918}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5197,10 +5416,10 @@ RectTransform:
   m_Father: {fileID: 157733393}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.68752086}
-  m_AnchorMax: {x: 0.18400002, y: 0.7294792}
-  m_AnchoredPosition: {x: 1.7128906, y: -609.1357}
-  m_SizeDelta: {x: -0.0866, y: 126.0799}
+  m_AnchorMin: {x: 0, y: 0.3411304}
+  m_AnchorMax: {x: 0.18400002, y: 0.44356522}
+  m_AnchoredPosition: {x: 1.7128906, y: -3.6356812}
+  m_SizeDelta: {x: -0.08660126, y: 11.079895}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873418608
 MonoBehaviour:
@@ -5523,7 +5742,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2041003533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 897557917}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 213300637}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2041003533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5594,6 +5837,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1931030053}
+  - {fileID: 1508062237}
   m_Father: {fileID: 1846357861}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5885,4 +6129,115 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122401274}
+  m_CullTransparentMesh: 1
+--- !u!1 &2135662994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2135662995}
+  - component: {fileID: 2135662997}
+  - component: {fileID: 2135662996}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2135662995
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135662994}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1061697972}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.00024414062, y: -0.00012207031}
+  m_SizeDelta: {x: -0.6699829, y: 0.19995117}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2135662996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135662994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\r\nSobrevivir en el bosque puede ser un desaf\xEDo, pero con los pasos
+    correctos, puedes aumentar tus posibilidades de supervivencia. Aqu\xED hay algunos
+    consejos clave para dar tus primeros pasos en un entorno boscoso:\r\n\r\nEval\xFAa
+    tu entorno: Antes de hacer cualquier cosa, t\xF3mate un momento para observar
+    y comprender tu entorno. Identifica los recursos naturales cercanos, como fuentes
+    de agua, alimentos y materiales para construir refugios.\r\n\r\nEncuentra o construye
+    refugio: El refugio es crucial para protegerte de los elementos y los posibles
+    peligros. Busca una cueva natural, un \xE1rea con vegetaci\xF3n densa o construye
+    un refugio improvisado con ramas y hojas.\r\n\r\nBusca agua potable: El agua
+    es esencial para la supervivencia. Busca arroyos, r\xEDos o lagos, pero aseg\xFArate
+    de purificar el agua antes de beberla. Puedes hervirla o usar filtros improvisados
+    hechos con arena y carb\xF3n.\r\n\r\nAprende a encender fuego: El fuego proporciona
+    calor, luz y la capacidad de cocinar alimentos. Aprende t\xE9cnicas de encendido
+    de fuego, como el m\xE9todo del arco y taladro, o lleva contigo cerillas o un
+    encendedor resistente al agua.\r\n\r\nObt\xE9n alimentos: Familiar\xEDzate con
+    las plantas comestibles y los m\xE9todos de caza o pesca en tu \xE1rea. Aseg\xFArate
+    de conocer las especies de plantas y animales venenosos para evitar consumirlos.\r\n\r\nOrientaci\xF3n:
+    Aprende a leer los signos naturales para orientarte. Puedes utilizar el sol,
+    las estrellas, los patrones de la vegetaci\xF3n y las formaciones geol\xF3gicas
+    para mantener una idea de tu ubicaci\xF3n.\r\n\r\nMant\xE9n la calma y conserva
+    energ\xEDa: La ansiedad y el p\xE1nico pueden agotar r\xE1pidamente tus reservas
+    de energ\xEDa. Mant\xE9n la calma y prioriza tus acciones. Cons\xE9rvala, ya
+    que no sabes cu\xE1nto tiempo puede durar tu situaci\xF3n.\r\n\r\nPrep\xE1rate
+    para condiciones clim\xE1ticas adversas: El clima en el bosque puede cambiar
+    r\xE1pidamente. Aseg\xFArate de tener ropa adecuada para protegerte del fr\xEDo,
+    la lluvia o el calor excesivo.\r\n\r\nMant\xE9n una actitud positiva y persevera:
+    La supervivencia en el bosque puede ser desafiante, pero mantener una mentalidad
+    positiva y perseverar es fundamental. Mant\xE9n la esperanza y utiliza tu ingenio
+    para enfrentar cualquier obst\xE1culo que encuentres.\r\n\r\nRecuerda, estos
+    pasos son solo una introducci\xF3n b\xE1sica a la supervivencia en el bosque.
+    Siempre es recomendable obtener conocimientos y habilidades especializadas antes
+    de aventurarse en un entorno tan exigente."
+--- !u!222 &2135662997
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135662994}
   m_CullTransparentMesh: 1
