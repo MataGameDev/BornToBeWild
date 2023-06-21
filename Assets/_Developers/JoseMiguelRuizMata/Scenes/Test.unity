@@ -815,7 +815,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Fauna
+  m_Text: "Cuando te encuentras perdido en el bosque, es probable que te encuentres
+    con la fauna local. Aqu\xED tienes algunos consejos para tratar con la fauna
+    de manera segura y minimizar cualquier riesgo:\r\n\r\nMant\xE9n la calma y evita
+    el p\xE1nico: La mayor\xEDa de los animales prefieren evitar el contacto con
+    los seres humanos. Si te encuentras con animales, mant\xE9n la calma, no los
+    amenaces y evita hacer movimientos bruscos que puedan asustarlos o provocar una
+    reacci\xF3n agresiva.\r\n\r\nObserva y mant\xE9n la distancia: No te acerques
+    demasiado a los animales salvajes. Mant\xE9n una distancia segura y observa su
+    comportamiento desde lejos. Recuerda que est\xE1s en su territorio y debes respetar
+    su espacio.\r\n\r\nNo alimentes a los animales: Evita darles comida a los animales
+    salvajes. Alimentarlos puede alterar su comportamiento natural y hacer que dependan
+    de los seres humanos para obtener comida, lo que puede resultar peligroso para
+    ellos y para ti.\r\n\r\nEvita los animales enfermos o heridos: Si te encuentras
+    con un animal herido o enfermo, evita acercarte a \xE9l. Algunos animales pueden
+    volverse agresivos si se sienten amenazados o est\xE1n heridos. Si encuentras
+    un animal en peligro, notifica a las autoridades competentes para que puedan
+    tomar las medidas adecuadas."
 --- !u!222 &44415545
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -972,7 +988,24 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Higiene Personal
+  m_Text: "Limpieza corporal: Aunque el agua puede ser escasa en el desierto, es
+    importante mantener tu cuerpo limpio para evitar infecciones y enfermedades.
+    Utiliza pa\xF1os h\xFAmedos o toallitas desinfectantes para limpiar tu cuerpo
+    y eliminar el sudor y la suciedad. Presta especial atenci\xF3n a las \xE1reas
+    propensas a la acumulaci\xF3n de sudor, como las axilas, la entrepierna y los
+    pies.\r\n\r\nHigiene bucal: Aseg\xFArate de mantener una buena higiene bucal
+    incluso en condiciones de supervivencia. Cepilla tus dientes con pasta dental
+    y agua, o utiliza hilo dental para eliminar los restos de comida. Esto ayudar\xE1
+    a prevenir problemas dentales y mantener tu boca saludable.\r\n\r\nControl de
+    olores corporales: El calor y el sudor pueden provocar malos olores corporales
+    en el desierto. Utiliza desodorante o polvos corporales para mantener el olor
+    bajo control. Tambi\xE9n puedes considerar el uso de ropa transpirable y cambiarla
+    regularmente para evitar la acumulaci\xF3n de olores.\r\n\r\nManejo de desechos:
+    La gesti\xF3n adecuada de los desechos es esencial para mantener la higiene y
+    prevenir la contaminaci\xF3n. Excava un agujero peque\xF1o y entierra tus desechos
+    corporales a una distancia segura de cualquier fuente de agua. Si tienes toallas
+    sanitarias u otros productos menstruales, gu\xE1rdalos en una bolsa sellada y
+    des\xE9chalos adecuadamente cuando sea posible."
 --- !u!222 &156594538
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2125,9 +2158,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Aqui estara el contenido de Orientacion
-
-'
+  m_Text: "Estudia y observa los indicios naturales: La selva est\xE1 llena de se\xF1ales
+    naturales que puedes utilizar para orientarte. Presta atenci\xF3n a la direcci\xF3n
+    en la que crecen los \xE1rboles, las formaciones de rocas o los cursos de agua.
+    Tambi\xE9n observa la posici\xF3n del sol y las estrellas para tener una idea
+    general de los puntos cardinales.\r\n\r\nUtiliza un mapa y una br\xFAjula: Si
+    dispones de un mapa de la zona, util\xEDzalo para identificar puntos de referencia
+    y seguir una ruta preestablecida. Una br\xFAjula te ayudar\xE1 a mantener una
+    direcci\xF3n constante y evitar desviaciones. Aseg\xFArate de familiarizarte
+    con el uso de una br\xFAjula antes de aventurarte en la selva.\r\n\r\nCrea marcas
+    y rastros: Si te encuentras en una situaci\xF3n de emergencia y necesitas dejar
+    rastros para que te encuentren, utiliza cintas de colores brillantes, tiza o
+    cualquier otro objeto visible para crear marcas en los \xE1rboles o en el suelo.
+    Estas marcas pueden ayudarte a volver sobre tus pasos o permitir que otros te
+    encuentren m\xE1s f\xE1cilmente.\r\n\r\nSigue los cursos de agua: Los r\xEDos
+    y arroyos suelen ser una gu\xEDa \xFAtil en la selva. Si te encuentras perdido,
+    sigue la corriente de agua aguas abajo, ya que generalmente conducen a \xE1reas
+    pobladas o a fuentes de civilizaci\xF3n."
 --- !u!222 &275084521
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3427,7 +3474,26 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Sistemas de S.O.S
+  m_Text: "Cuando te encuentras perdido en la selva, es importante tener formas de
+    comunicarte y pedir ayuda. Aqu\xED tienes algunos sistemas S.O.S que podr\xEDas
+    utilizar:\r\n\r\nSe\xF1ales visuales: Utiliza se\xF1ales visuales para atraer
+    la atenci\xF3n de posibles rescatistas. Construye un mont\xF3n de piedras o ramas
+    en un lugar abierto y visible desde el aire. Puedes crear patrones o letras en
+    el suelo utilizando ramas o piedras de colores llamativos para transmitir un
+    mensaje de ayuda.\r\n\r\nSe\xF1ales de sonido: Utiliza se\xF1ales de sonido para
+    alertar a los posibles rescatistas sobre tu ubicaci\xF3n. Puedes hacer ruidos
+    fuertes y repetitivos utilizando un silbato, golpeando dos objetos met\xE1licos
+    juntos o utilizando un tambor improvisado. Trata de crear sonidos distintivos
+    que puedan ser escuchados a larga distancia.\r\n\r\nSe\xF1ales de humo: Si tienes
+    la capacidad de hacer fuego de manera segura, puedes utilizar se\xF1ales de humo
+    para llamar la atenci\xF3n. Construye una hoguera y agrega materiales verdes
+    y h\xFAmedos para producir humo denso y oscuro. Recuerda que hacer fuego en la
+    selva puede ser peligroso, as\xED que aseg\xFArate de tener el control y de que
+    no haya riesgo de incendios forestales.\r\n\r\nUtiliza un espejo de se\xF1ales:
+    Si tienes un espejo, \xFAsalo para reflejar la luz del sol hacia posibles aviones
+    o helic\xF3pteros de b\xFAsqueda. Apunta el haz de luz hacia la direcci\xF3n
+    de donde creas que vendr\xE1 la ayuda. Mueve el espejo en un movimiento lento
+    y constante para aumentar la probabilidad de que alguien lo note."
 --- !u!222 &734012898
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3507,9 +3573,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Aqui estara el contenido de Orientacion
-
-'
+  m_Text: "Establece puntos de referencia: Antes de aventurarte en el desierto, familiar\xEDzate
+    con los puntos de referencia prominentes, como monta\xF1as, formaciones rocosas
+    o torres de comunicaci\xF3n. Estos te ayudar\xE1n a tener una idea general de
+    tu ubicaci\xF3n y direcci\xF3n.\r\n\r\nUtiliza el sol: El sol es una herramienta
+    \xFAtil para la orientaci\xF3n en el desierto. Durante el d\xEDa, observa la
+    posici\xF3n del sol para determinar la direcci\xF3n general. Aproximadamente
+    al mediod\xEDa, cuando el sol est\xE1 directamente encima, est\xE1s mirando hacia
+    el sur en el hemisferio norte y hacia el norte en el hemisferio sur.\r\n\r\nUtiliza
+    las estrellas: Por la noche, las estrellas pueden ser una gu\xEDa confiable.
+    Identifica las constelaciones principales o busca la Estrella Polar (en el hemisferio
+    norte) para encontrar el norte. Si no est\xE1s familiarizado con la navegaci\xF3n
+    estelar, es recomendable aprender algunos conceptos b\xE1sicos antes de aventurarte
+    en el desierto.\n\nSigue el flujo de agua: Si encuentras un lecho seco de un
+    arroyo o un r\xEDo, sigue su direcci\xF3n aguas abajo. Los cursos de agua generalmente
+    conducen a \xE1reas m\xE1s pobladas o a asentamientos humanos. Sin embargo, ten
+    en cuenta que el agua puede estar lejos en el desierto, as\xED que eval\xFAa
+    los riesgos antes de seguir este m\xE9todo."
 --- !u!222 &777266908
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4243,7 +4323,27 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Sistemas de S.O.S
+  m_Text: "En una situaci\xF3n de supervivencia en el desierto, es fundamental tener
+    formas de pedir ayuda y alertar a los equipos de rescate sobre tu situaci\xF3n.
+    Aqu\xED tienes algunos sistemas S.O.S que podr\xEDas utilizar:\r\n\r\nSe\xF1ales
+    visuales: Utiliza se\xF1ales visuales para llamar la atenci\xF3n de los posibles
+    rescatistas. Algunas opciones incluyen:\r\n\r\nFuego: Enciende un fuego en un
+    \xE1rea abierta para generar humo. El humo oscuro y denso es m\xE1s visible.
+    Aseg\xFArate de tener un \xE1rea segura y controlada para encenderlo.\r\n\r\nEspejo
+    o reflector: Utiliza un espejo o cualquier objeto reflectante para crear destellos
+    de luz dirigidos hacia posibles aviones o helic\xF3pteros. Apunta el reflejo
+    hacia la direcci\xF3n en la que esperas ser visto.\r\n\r\nMarcas en el suelo:
+    Utiliza piedras, ramas o arena para crear marcas en el suelo en forma de una
+    gran \"S.O.S\" u otra se\xF1al de socorro que sea visible desde el aire.\r\n\r\nSe\xF1ales
+    auditivas: En el desierto, el sonido puede viajar lejos y ser detectado por equipos
+    de b\xFAsqueda y rescate. Algunas opciones incluyen:\r\n\r\nSilbatos: Lleva un
+    silbato contigo y util\xEDzalo para emitir r\xE1fagas de sonido en patrones reconocibles,
+    como tres r\xE1fagas cortas seguidas de una r\xE1faga larga. Repite este patr\xF3n
+    en intervalos regulares.\r\n\r\nGritos y voces fuertes: Si escuchas o ves aeronaves
+    cercanas, grita o utiliza tus cuerdas vocales al m\xE1ximo para hacer ruido y
+    atraer la atenci\xF3n.\r\n\r\nMetal o piedras: Golpea dos objetos met\xE1licos
+    o piedras entre s\xED para crear ruidos fuertes y repetitivos que puedan ser
+    escuchados a distancia."
 --- !u!222 &835773958
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4644,7 +4744,27 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Fauna
+  m_Text: "En la selva, puedes encontrarte con una variedad de fauna, incluyendo
+    animales salvajes y criaturas venenosas. Aqu\xED tienes una peque\xF1a gu\xEDa
+    de supervivencia para enfrentar un encuentro con la fauna en la selva:\r\n\r\nInvestigaci\xF3n
+    previa: Antes de adentrarte en la selva, investiga sobre los animales y criaturas
+    que podr\xEDas encontrar. Aprende a identificar especies venenosas o peligrosas,
+    as\xED como su comportamiento t\xEDpico. Conocerlos te ayudar\xE1 a tomar decisiones
+    informadas y evitar encuentros innecesarios.\r\n\r\nMant\xE9n la distancia: Si
+    te encuentras con animales salvajes, mant\xE9n la distancia y no los provoques.
+    Nunca te acerques demasiado o intentes tocarlos, ya que podr\xEDan responder
+    de manera defensiva.\r\n\r\nHazte visible: Si te encuentras en un \xE1rea con
+    presencia de grandes animales, como osos o felinos, es recomendable hacer ruido
+    y hablar en voz alta para anunciar tu presencia. Esto puede ayudar a evitar sorpresas
+    y darles la oportunidad de alejarse.\r\n\r\nEvita encuentros con reptiles: En
+    la selva, podr\xEDas encontrarte con serpientes y otros reptiles venenosos. Camina
+    con precauci\xF3n, especialmente en \xE1reas de vegetaci\xF3n densa, y utiliza
+    un palo o bast\xF3n para mover las hojas y ramas delante de ti. Esto puede ayudarte
+    a detectar cualquier serpiente u otro reptil antes de pisar sobre ellos.\r\n\r\nProtecci\xF3n
+    contra insectos: Los insectos en la selva pueden ser una molestia e incluso transmitir
+    enfermedades. Usa repelente de insectos en tu cuerpo y ropa para evitar picaduras.
+    Tambi\xE9n considera dormir en un refugio con mosquitera para protegerte durante
+    la noche."
 --- !u!222 &899063773
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5449,7 +5569,31 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Comidas y Bebidas
+  m_Text: "Cuando te encuentras perdido en la selva, es importante saber qu\xE9 alimentos
+    y bebidas puedes consumir para mantenerte hidratado y obtener nutrientes necesarios.
+    Aqu\xED tienes una peque\xF1a gu\xEDa de cosas que puedes comer y beber en esa
+    situaci\xF3n:\r\n\r\nComidas:\r\n\r\nFrutas: Busca frutas silvestres como bayas,
+    mangos, pi\xF1as, pl\xE1tanos y guayabas. Aseg\xFArate de identificar las frutas
+    comestibles y evitar aquellas que puedan ser t\xF3xicas.\r\n\r\nFrutos secos
+    y semillas: Las nueces y semillas comestibles como las almendras, nueces de Brasil,
+    semillas de girasol y semillas de calabaza son una excelente fuente de grasas
+    saludables y prote\xEDnas.\r\n\r\nHojas comestibles: Aprende a identificar hojas
+    comestibles como la yuca, espinacas silvestres, hojas de pl\xE1tano, hojas de
+    malanga y otras hojas verdes que puedan ser consumidas crudas o cocidas.\r\n\r\nInsectos:
+    En muchas culturas, los insectos son una fuente de alimento com\xFAn. Algunos
+    insectos como las hormigas, gusanos, grillos y larvas pueden ser consumidos despu\xE9s
+    de cocinarlos adecuadamente.\r\n\rBebidas:\r\n\r\nAgua de fuentes naturales:
+    Busca agua de arroyos, r\xEDos o manantiales. Sin embargo, es fundamental purificar
+    o hervir el agua antes de beberla para evitar enfermedades transmitidas por el
+    agua.\r\n\r\nAgua de coco: Si encuentras cocos en la selva, puedes beber su agua,
+    que es naturalmente hidratante y rica en electrolitos.\r\n\r\nPlantas medicinales:
+    Algunas plantas pueden proporcionar agua. Investiga sobre plantas como la liana
+    de agua o las bromelias, que pueden retener agua en sus hojas.\r\n\r\nEs importante
+    recordar que en la selva hay muchas plantas y alimentos potencialmente t\xF3xicos.
+    A menos que tengas conocimientos s\xF3lidos sobre qu\xE9 plantas son comestibles
+    y cu\xE1les evitar, es recomendable ser cauteloso y abstenerse de probar cualquier
+    cosa desconocida. Adem\xE1s, es esencial encontrar ayuda y ser rescatado lo antes
+    posible."
 --- !u!222 &1063911640
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5765,9 +5909,26 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Aqui estara el contenido de Orientacion
-
-'
+  m_Text: "Si te encuentras perdido en el bosque, es importante tener conocimientos
+    de orientaci\xF3n para ayudarte a encontrar el camino de regreso o buscar ayuda.
+    Aqu\xED tienes algunos consejos para orientarte en esa situaci\xF3n:\r\n\r\nMant\xE9n
+    la calma y eval\xFAa tu situaci\xF3n: Lo primero es mantener la calma y no entrar
+    en p\xE1nico. Busca un lugar seguro donde puedas detenerte y evaluar tu situaci\xF3n.
+    Trata de recordar los detalles de tu entorno, como puntos de referencia, caracter\xEDsticas
+    del terreno o cualquier indicio que te ayude a ubicarte.\r\n\r\nUtiliza una br\xFAjula
+    y un mapa: Si llevas una br\xFAjula y un mapa contigo, util\xEDzalos para orientarte.
+    Identifica en qu\xE9 direcci\xF3n te encuentras con respecto a los puntos de
+    referencia o caminos conocidos en el mapa. Esto te ayudar\xE1 a tener una idea
+    de tu posici\xF3n y hacia d\xF3nde dirigirte.\r\n\r\nUtiliza el sol y las estrellas:
+    Si no tienes una br\xFAjula, puedes utilizar el sol y las estrellas para orientarte.
+    Durante el d\xEDa, observa la posici\xF3n del sol y su movimiento para determinar
+    la direcci\xF3n aproximada. Por la noche, si tienes conocimientos b\xE1sicos
+    de astronom\xEDa, puedes utilizar las estrellas para identificar la direcci\xF3n
+    norte.\r\n\r\nAprende a leer las se\xF1ales naturales: El bosque est\xE1 lleno
+    de se\xF1ales naturales que pueden ayudarte a orientarte. Observa la direcci\xF3n
+    en la que crecen los \xE1rboles, ya que tienden a crecer m\xE1s rectos en direcci\xF3n
+    al sol. Presta atenci\xF3n a la presencia de cursos de agua o valles, que podr\xEDan
+    conducirte a asentamientos humanos o caminos.\n"
 --- !u!222 &1082376494
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5847,7 +6008,27 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Higiene Personal
+  m_Text: "Cuando te encuentras en una situaci\xF3n de supervivencia en el bosque,
+    mantener una buena higiene personal es esencial para prevenir enfermedades y
+    promover tu bienestar. A continuaci\xF3n, te brindo algunas pautas para cuidar
+    tu higiene personal en esa situaci\xF3n:\r\n\r\nLavado de manos: Aunque puedas
+    estar en un entorno natural, es importante lavarte las manos regularmente, especialmente
+    antes de manipular alimentos o despu\xE9s de usar el ba\xF1o. Utiliza agua limpia
+    y jab\xF3n si es posible, o en su defecto, utiliza desinfectante de manos a base
+    de alcohol.\r\n\r\nBa\xF1o y aseo personal: En ausencia de una ducha o un ba\xF1o
+    convencional, puedes utilizar cuerpos de agua naturales, como arroyos o lagos,
+    para ba\xF1arte. Utiliza un poco de jab\xF3n biodegradable para limpiar tu cuerpo
+    y enju\xE1galo completamente. Tambi\xE9n puedes utilizar hojas grandes o musgo
+    para limpiar partes de tu cuerpo si es necesario.\r\n\r\nHigiene dental: Aseg\xFArate
+    de mantener una buena higiene dental incluso en el bosque. Utiliza un palo afilado
+    para hacer un cepillo de dientes improvisado y utiliza agua limpia para enjuagarte
+    la boca despu\xE9s de cepillarte. Si tienes acceso a hilo dental, \xFAsalo para
+    limpiar entre tus dientes.\r\n\r\nControl de olores corporales: En un entorno
+    de supervivencia, es natural que el sudor y los olores corporales sean m\xE1s
+    pronunciados. Para mantener el control de los olores, puedes usar hojas de plantas
+    arom\xE1ticas, como la menta o la salvia, para frotar sobre tu piel. Tambi\xE9n
+    puedes cambiar regularmente tu ropa interior y calcetines para mantenerlos lo
+    m\xE1s limpios posible."
 --- !u!222 &1082966937
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5927,7 +6108,25 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Higiene Personal
+  m_Text: "Cuando te encuentras en una situaci\xF3n de supervivencia en la jungla,
+    mantener una buena higiene personal es esencial para evitar enfermedades y mantener
+    tu bienestar. Aqu\xED tienes algunos consejos de higiene que deber\xEDas considerar:\r\n\r\nMant\xE9n
+    tu cuerpo limpio: Aunque puede ser dif\xEDcil obtener agua en la jungla, intenta
+    mantener tu cuerpo limpio. Utiliza hojas grandes o pa\xF1os para limpiar tu piel
+    y eliminar el sudor, la suciedad y los insectos. Presta especial atenci\xF3n
+    a las \xE1reas propensas a la acumulaci\xF3n de sudor, como las axilas, la entrepierna
+    y los pies.\r\n\r\nBa\xF1os y desechos: Busca un \xE1rea adecuada lejos de tu
+    campamento para hacer tus necesidades. Excava un hoyo peque\xF1o y entierra tus
+    desechos correctamente. L\xE1vate las manos con jab\xF3n o utiliza desinfectante
+    de manos despu\xE9s de hacer tus necesidades para evitar la propagaci\xF3n de
+    bacterias.\r\n\r\nHigiene bucal: Aunque no tengas acceso a pasta de dientes y
+    cepillos de dientes, intenta mantener tu boca limpia. Mastica ramitas o hierbas
+    con propiedades limpiadoras para ayudar a eliminar la placa y los restos de comida.
+    Enjuaga tu boca con agua para mantenerla fresca.\r\n\r\nProtecci\xF3n contra
+    insectos: La jungla est\xE1 llena de insectos y otros artr\xF3podos. Utiliza
+    repelente de insectos en tu cuerpo y en tu ropa para evitar las picaduras. Tambi\xE9n
+    puedes construir un refugio de red o utilizar una mosquitera para dormir y protegerte
+    de los insectos por la noche."
 --- !u!222 &1211456117
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6087,7 +6286,30 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Sistemas de S.O.S
+  m_Text: "Si te encuentras perdido en un bosque y necesitas solicitar ayuda, hay
+    varios sistemas de S.O.S que puedes utilizar para aumentar tus posibilidades
+    de ser encontrado. Aqu\xED tienes algunas opciones:\r\n\r\nSe\xF1ales visuales:
+    Utiliza se\xF1ales visuales para llamar la atenci\xF3n de posibles rescatistas.
+    Puedes crear una se\xF1al de humo si tienes la capacidad de encender un fuego
+    controlado. Tambi\xE9n puedes usar espejos, l\xE1minas de metal o cualquier objeto
+    brillante para reflejar la luz del sol y hacer destellos visibles. Adem\xE1s,
+    puedes construir una gran \"X\" o \"S.O.S\" en el suelo utilizando ramas, piedras
+    o cualquier otro material que encuentres.\r\n\r\nSe\xF1ales ac\xFAsticas: Utiliza
+    sonidos fuertes y repetitivos para atraer la atenci\xF3n. Puedes gritar, silbar
+    o utilizar un silbato si tienes uno contigo. Tambi\xE9n puedes golpear objetos
+    met\xE1licos juntos, como piedras o palos, para crear ruidos distintivos. Tres
+    golpes fuertes en un objeto s\xF3lido, como un \xE1rbol, pueden ser reconocidos
+    como una se\xF1al de emergencia.\r\n\r\nUso de luces: Si tienes una linterna,
+    un faro o cualquier fuente de luz port\xE1til, \xFAsala para enviar se\xF1ales
+    durante la noche. Enciende y apaga la luz en intervalos regulares para atraer
+    la atenci\xF3n hacia tu ubicaci\xF3n. En caso de tener acceso a bater\xEDas o
+    pilas adicionales, aseg\xFArate de tener suficiente energ\xEDa para mantener
+    la se\xF1alizaci\xF3n durante el tiempo necesario.\r\n\r\nUso de dispositivos
+    electr\xF3nicos: Si tienes un tel\xE9fono celular, intenta hacer una llamada
+    de emergencia si hay se\xF1al en tu ubicaci\xF3n. Tambi\xE9n puedes enviar mensajes
+    de texto a tus contactos de emergencia si no puedes realizar una llamada. Si
+    tienes un dispositivo GPS, marca tu posici\xF3n actual y comp\xE1rtela con las
+    autoridades o con alguien de confianza que pueda enviar ayuda."
 --- !u!222 &1234645944
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7717,7 +7939,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Comidas y Bebidas
+  m_Text: "Ra\xEDces y tub\xE9rculos: Algunas plantas en el bosque tienen ra\xEDces
+    y tub\xE9rculos comestibles, como la bardana, el diente de le\xF3n y el malvavisco.
+    Estas partes de la planta pueden ser una buena fuente de carbohidratos y nutrientes.\r\n\r\nCaza
+    y pesca: Si tienes las habilidades y los recursos necesarios, la caza y la pesca
+    pueden proporcionarte prote\xEDnas vitales. Aprende sobre las t\xE9cnicas adecuadas
+    y las regulaciones locales para cazar y pescar de manera responsable y sostenible.\r\n\r\nAgua:
+    La hidrataci\xF3n es fundamental para la supervivencia. Aseg\xFArate de encontrar
+    una fuente confiable de agua en el bosque, como arroyos o manantiales. Puedes
+    usar t\xE9cnicas de filtraci\xF3n o hervir el agua para hacerla segura para el
+    consumo.\r\n\r\nInfusiones y tisanas: Algunas plantas en el bosque tienen propiedades
+    medicinales y se pueden utilizar para hacer infusiones y tisanas. Por ejemplo,
+    la manzanilla, la menta y el t\xE9 de abeto son opciones comunes que pueden ayudar
+    a calmar el sistema digestivo y proporcionar otros beneficios para la salud."
 --- !u!222 &1629015679
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7954,7 +8188,24 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Comidas y Bebidas
+  m_Text: "Comidas:\r\n\r\nPlantas comestibles: Aprende a identificar plantas silvestres
+    comestibles en el desierto, como el cactus del nopal, d\xE1tiles, hojas de malva
+    o mezquite. Investiga y familiar\xEDzate con las plantas locales antes de aventurarte.\r\n\r\nInsectos:
+    En muchos desiertos, los insectos pueden ser una fuente de prote\xEDnas. Busca
+    escarabajos, larvas, hormigas o saltamontes. Aseg\xFArate de cocinarlos adecuadamente
+    para matar bacterias o par\xE1sitos.\r\n\r\nPeque\xF1os animales: En algunas
+    \xE1reas des\xE9rticas, puedes encontrar peque\xF1os animales como lagartijas,
+    serpientes o roedores. Aprende a capturar y cocinarlos de manera segura antes
+    de intentarlo.\r\n\r\nBebidas:\r\n\r\nAgua: La hidrataci\xF3n es crucial en el
+    desierto. Busca fuentes de agua como arroyos, manantiales o estanques. Aunque
+    el agua puede ser escasa en el desierto, busca en \xE1reas bajas donde puede
+    haber acumulaci\xF3n de agua de lluvia. Si encuentras agua, purif\xEDcala hirvi\xE9ndola
+    o utilizando tabletas de purificaci\xF3n si es posible.\r\n\r\nPlantas con agua:
+    Algunas plantas en el desierto, como el cactus de saguaro o el agave, pueden
+    contener agua en su interior. Aprende a extraer el l\xEDquido correctamente sin
+    da\xF1ar la planta.\r\n\r\nCaza de agua: Observa la presencia de aves, insectos
+    o rastros de animales, ya que pueden indicar la cercan\xEDa de una fuente de
+    agua. Sigue sus movimientos o rastros para encontrar agua."
 --- !u!222 &1783503266
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10088,7 +10339,24 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aqui estara el contenido de Fauna
+  m_Text: "Cuando te encuentras en el desierto, es importante tomar precauciones
+    y tener en cuenta la fauna que puedes encontrar. A continuaci\xF3n, te brindo
+    algunos consejos de seguridad sobre la fauna del desierto:\r\n\r\nMant\xE9n la
+    distancia: Observa y admira la vida silvestre desde lejos. No te acerques demasiado
+    a los animales, ya que pueden considerarte una amenaza y responder de manera
+    defensiva. Mant\xE9n una distancia segura y respeta su espacio.\r\n\r\nEvita
+    el contacto con animales venenosos: En el desierto, puedes encontrar serpientes,
+    escorpiones y ara\xF1as venenosas. Aprende a identificar las especies venenosas
+    que se encuentran en la regi\xF3n y mantente alejado de ellas. No las toques
+    ni las molestes, ya que pueden atacar en defensa propia.\r\n\r\nObserva patrones
+    de comportamiento: Presta atenci\xF3n a los patrones de comportamiento de los
+    animales del desierto. Algunos animales pueden advertir de su presencia a trav\xE9s
+    de se\xF1ales visuales o auditivas, como el sonido de una serpiente de cascabel.
+    Aprende a reconocer estas se\xF1ales y act\xFAa en consecuencia.\r\n\r\nAlmacenamiento
+    adecuado de alimentos: Si llevas comida contigo, aseg\xFArate de almacenarla
+    adecuadamente para evitar atraer animales. Utiliza contenedores herm\xE9ticos
+    y cuelga tu comida en \xE1rboles o en lugares altos para evitar que los animales
+    se acerquen."
 --- !u!222 &2118900071
 CanvasRenderer:
   m_ObjectHideFlags: 0
