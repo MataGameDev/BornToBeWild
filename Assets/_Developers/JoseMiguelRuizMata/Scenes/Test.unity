@@ -892,7 +892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1674,7 +1674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1799,6 +1799,116 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219233040}
+  m_CullTransparentMesh: 1
+--- !u!1 &220320574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 220320575}
+  - component: {fileID: 220320577}
+  - component: {fileID: 220320576}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &220320575
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220320574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 917519989}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 10.1209, y: -5.7323}
+  m_SizeDelta: {x: 898.3007, y: 1692.6235}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &220320576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220320574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Sobrevivir en la naturaleza puede ser un desaf\xEDo, pero si sigues estos
+    10 pasos, tendr\xE1s una mejor oportunidad de enfrentar las adversidades y mantener
+    tu seguridad:\r\n\r\nMant\xE9n la calma: El primer paso es mantener la calma
+    y no dejarte llevar por el p\xE1nico. Mant\xE9n la mente clara para poder tomar
+    decisiones inteligentes y evaluar tus opciones.\r\n\r\nEncuentra refugio: Busca
+    un lugar seguro para protegerte de los elementos y los peligros naturales. Puede
+    ser una cueva, un refugio improvisado o cualquier lugar que te brinde cobertura.\r\n\r\nEncuentra
+    agua: La hidrataci\xF3n es crucial para la supervivencia. Busca fuentes de agua
+    cercanas, como arroyos, r\xEDos o incluso plantas que puedas exprimir para obtener
+    l\xEDquido.\r\n\r\nBusca comida: Aprende a identificar plantas comestibles, frutas,
+    nueces o insectos que puedan servir como fuente de alimento. Evita comer plantas
+    o animales desconocidos que puedan ser t\xF3xicos.\r\n\r\nEncuentra ayuda o contacto
+    con la civilizaci\xF3n: Si es posible, busca se\xF1ales de ayuda o intenta establecer
+    contacto con otras personas. Utiliza se\xF1ales visuales o auditivas para atraer
+    la atenci\xF3n de posibles rescatadores.\r\n\r\nOrientaci\xF3n y navegaci\xF3n:
+    Aprende a utilizar br\xFAjulas, mapas o elementos naturales como el sol, las
+    estrellas o los cursos de agua para orientarte y encontrar el camino adecuado
+    hacia la civilizaci\xF3n.\r\n\r\nMantente abrigado: Protege tu cuerpo de las
+    condiciones clim\xE1ticas adversas. Utiliza ropa adecuada y construye un refugio
+    que te mantenga caliente y seco durante la noche.\r\n\r\nPrimeros auxilios b\xE1sicos:
+    Familiar\xEDzate con los conceptos b\xE1sicos de primeros auxilios, como el tratamiento
+    de heridas, la reanimaci\xF3n cardiopulmonar (RCP) y la prevenci\xF3n de infecciones.\r\n\r\nEnciende
+    fuego: El fuego es esencial para mantener el calor, cocinar alimentos y ahuyentar
+    a los animales salvajes. Aprende t\xE9cnicas para encender fuego utilizando f\xF3sforos,
+    encendedores o m\xE9todos primitivos como la fricci\xF3n.\r\n\r\nMant\xE9n una
+    actitud positiva: La supervivencia en la naturaleza requiere determinaci\xF3n
+    y una actitud positiva. Mant\xE9n la esperanza y la confianza en tus habilidades
+    para superar los desaf\xEDos que enfrentes.\r\n\r\nRecuerda que estos pasos son
+    solo pautas generales y pueden variar dependiendo de la situaci\xF3n y el entorno
+    en el que te encuentres. Siempre es recomendable adquirir conocimientos y habilidades
+    de supervivencia antes de aventurarte en la naturaleza."
+--- !u!222 &220320577
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220320574}
   m_CullTransparentMesh: 1
 --- !u!1 &263435816
 GameObject:
@@ -2214,7 +2324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2641,6 +2751,7 @@ RectTransform:
   m_Children:
   - {fileID: 213300638}
   - {fileID: 897557918}
+  - {fileID: 917519989}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2807,7 +2918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3070,7 +3181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4404,7 +4515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4627,6 +4738,7 @@ RectTransform:
   - {fileID: 1483795573}
   - {fileID: 1245631331}
   - {fileID: 1816821460}
+  - {fileID: 2038348606}
   m_Father: {fileID: 448794605}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4772,6 +4884,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899063770}
+  m_CullTransparentMesh: 1
+--- !u!1 &917519988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 917519989}
+  - component: {fileID: 917519991}
+  - component: {fileID: 917519990}
+  m_Layer: 5
+  m_Name: PanelHolderPage3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &917519989
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917519988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1117858375}
+  - {fileID: 220320575}
+  - {fileID: 1972581554}
+  m_Father: {fileID: 448794605}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &917519990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917519988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &917519991
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917519988}
   m_CullTransparentMesh: 1
 --- !u!1 &954326961
 GameObject:
@@ -5091,7 +5282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5375,7 +5566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5473,7 +5664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5633,7 +5824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6036,6 +6227,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082966934}
+  m_CullTransparentMesh: 1
+--- !u!1 &1117858374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1117858375}
+  - component: {fileID: 1117858377}
+  - component: {fileID: 1117858376}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1117858375
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117858374}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 917519989}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1080, y: 1920}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1117858376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117858374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 94990793892476945aa1dd9c622002a4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1117858377
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117858374}
   m_CullTransparentMesh: 1
 --- !u!1 &1211456114
 GameObject:
@@ -6519,7 +6786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7520,6 +7787,86 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1520707718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1520707719}
+  - component: {fileID: 1520707721}
+  - component: {fileID: 1520707720}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1520707719
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520707718}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2038348606}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1520707720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520707718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Tips & Tricks
+--- !u!222 &1520707721
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520707718}
+  m_CullTransparentMesh: 1
 --- !u!1 &1559341520
 GameObject:
   m_ObjectHideFlags: 0
@@ -7551,7 +7898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7597,6 +7944,86 @@ RectTransform:
   m_AnchoredPosition: {x: 538.37177, y: 105.384155}
   m_SizeDelta: {x: 656.4721, y: 1484.773}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1588652132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1588652133}
+  - component: {fileID: 1588652135}
+  - component: {fileID: 1588652134}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1588652133
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588652132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1972581554}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1588652134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588652132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: VOLVER
+--- !u!222 &1588652135
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588652132}
+  m_CullTransparentMesh: 1
 --- !u!1 &1599526589
 GameObject:
   m_ObjectHideFlags: 0
@@ -7818,48 +8245,52 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\r\nSobrevivir en el bosque puede ser un desaf\xEDo, pero con los pasos
-    correctos, puedes aumentar tus posibilidades de supervivencia. Aqu\xED hay algunos
-    consejos clave para dar tus primeros pasos en un entorno boscoso:\r\n\r\nEval\xFAa
-    tu entorno: Antes de hacer cualquier cosa, t\xF3mate un momento para observar
-    y comprender tu entorno. Identifica los recursos naturales cercanos, como fuentes
-    de agua, alimentos y materiales para construir refugios.\r\n\r\nEncuentra o construye
-    refugio: El refugio es crucial para protegerte de los elementos y los posibles
-    peligros. Busca una cueva natural, un \xE1rea con vegetaci\xF3n densa o construye
-    un refugio improvisado con ramas y hojas.\r\n\r\nBusca agua potable: El agua
-    es esencial para la supervivencia. Busca arroyos, r\xEDos o lagos, pero aseg\xFArate
-    de purificar el agua antes de beberla. Puedes hervirla o usar filtros improvisados
-    hechos con arena y carb\xF3n.\r\n\r\nAprende a encender fuego: El fuego proporciona
-    calor, luz y la capacidad de cocinar alimentos. Aprende t\xE9cnicas de encendido
-    de fuego, como el m\xE9todo del arco y taladro, o lleva contigo cerillas o un
-    encendedor resistente al agua.\r\n\r\nObt\xE9n alimentos: Familiar\xEDzate con
-    las plantas comestibles y los m\xE9todos de caza o pesca en tu \xE1rea. Aseg\xFArate
-    de conocer las especies de plantas y animales venenosos para evitar consumirlos.\r\n\r\nOrientaci\xF3n:
-    Aprende a leer los signos naturales para orientarte. Puedes utilizar el sol,
-    las estrellas, los patrones de la vegetaci\xF3n y las formaciones geol\xF3gicas
-    para mantener una idea de tu ubicaci\xF3n.\r\n\r\nMant\xE9n la calma y conserva
-    energ\xEDa: La ansiedad y el p\xE1nico pueden agotar r\xE1pidamente tus reservas
-    de energ\xEDa. Mant\xE9n la calma y prioriza tus acciones. Cons\xE9rvala, ya
-    que no sabes cu\xE1nto tiempo puede durar tu situaci\xF3n.\r\n\r\nPrep\xE1rate
-    para condiciones clim\xE1ticas adversas: El clima en el bosque puede cambiar
-    r\xE1pidamente. Aseg\xFArate de tener ropa adecuada para protegerte del fr\xEDo,
-    la lluvia o el calor excesivo.\r\n\r\nMant\xE9n una actitud positiva y persevera:
-    La supervivencia en el bosque puede ser desafiante, pero mantener una mentalidad
-    positiva y perseverar es fundamental. Mant\xE9n la esperanza y utiliza tu ingenio
-    para enfrentar cualquier obst\xE1culo que encuentres.\r\n\r\nRecuerda, estos
-    pasos son solo una introducci\xF3n b\xE1sica a la supervivencia en el bosque.
-    Siempre es recomendable obtener conocimientos y habilidades especializadas antes
-    de aventurarse en un entorno tan exigente."
+  m_Text: "Cuando te encuentras en una situaci\xF3n de supervivencia en la selva,
+    es fundamental tomar medidas inmediatas para garantizar tu supervivencia y aumentar
+    tus posibilidades de ser rescatado. Aqu\xED tienes algunos primeros pasos que
+    deber\xEDas considerar:\r\n\r\nEncuentra o construye refugio: Lo primero que
+    debes hacer es buscar o construir un refugio para protegerte del clima, los insectos
+    y otros peligros. Busca un lugar elevado y seco, alejado de \xE1reas inundables.
+    Puedes utilizar ramas, hojas grandes o lianas para construir un refugio improvisado.
+    Aseg\xFArate de protegerte del suelo h\xFAmedo y del viento si es necesario.\r\n\r\nEncuentra
+    agua potable: La hidrataci\xF3n es crucial en la selva. Busca fuentes de agua
+    como arroyos, r\xEDos o cascadas. Si no encuentras agua corriente, busca plantas
+    que puedan contener agua, como las bromelias o las lianas. Aseg\xFArate de purificar
+    el agua antes de beberla, ya sea hirvi\xE9ndola o utilizando tabletas o filtros
+    de purificaci\xF3n si los tienes disponibles.\r\n\r\nBusca alimentos comestibles:
+    Aprende a identificar plantas y frutas comestibles en la selva. Busca frutos,
+    nueces, hojas y ra\xEDces que sean seguros para consumir. Evita las plantas y
+    frutas que no conozcas, ya que algunas pueden ser venenosas. Tambi\xE9n puedes
+    buscar insectos, larvas y peque\xF1os animales para obtener prote\xEDnas adicionales.\r\n\r\nEncuentra
+    o crea una fuente de fuego: El fuego es esencial en la selva para calentarte,
+    cocinar alimentos y purificar agua. Busca madera seca y material inflamable,
+    como hierba seca o corteza de \xE1rbol, para encender un fuego. Si tienes f\xF3sforos
+    o un encendedor, \xFAsalos. Si no, puedes intentar utilizar m\xE9todos primitivos,
+    como el m\xE9todo del arco de fuego o el m\xE9todo de fricci\xF3n.\r\n\r\nMant\xE9n
+    la calma y conserva la energ\xEDa: Es normal sentir ansiedad y miedo en una situaci\xF3n
+    de supervivencia, pero es fundamental mantener la calma y conservar la energ\xEDa.
+    Evita el p\xE1nico y enf\xF3cate en las tareas necesarias para sobrevivir. Evita
+    realizar actividades f\xEDsicas extenuantes, ya que la selva puede ser un entorno
+    agotador. Descansa cuando sea necesario y administra tus recursos de manera inteligente.\r\n\r\nMantente
+    protegido y seguro: En la selva, hay muchos peligros, como animales salvajes
+    y plantas venenosas. Mantente alerta y toma precauciones para evitar encuentros
+    con animales peligrosos. Protege tu cuerpo de las picaduras de insectos utilizando
+    ropa adecuada y repelente de insectos. Evita tocar plantas desconocidas y utiliza
+    guantes si es necesario.\r\n\r\nUtiliza se\xF1ales de socorro: Si est\xE1s seguro
+    de que hay personas cerca, utiliza se\xF1ales visuales o sonoras para llamar
+    la atenci\xF3n de los posibles rescatistas. Crea se\xF1ales de humo durante el
+    d\xEDa o utiliza sonidos fuertes y repetitivos, como golpes en los \xE1rboles
+    o silbidos."
 --- !u!222 &1604189577
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7991,7 +8422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9054,7 +9485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9131,7 +9562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9208,7 +9639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9365,7 +9796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9411,6 +9842,152 @@ RectTransform:
   m_AnchoredPosition: {x: 539.6049, y: -745.6174}
   m_SizeDelta: {x: 655.4721, y: 1492.1532}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1972581553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972581554}
+  - component: {fileID: 1972581557}
+  - component: {fileID: 1972581556}
+  - component: {fileID: 1972581555}
+  m_Layer: 5
+  m_Name: Button (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1972581554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972581553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1588652133}
+  m_Father: {fileID: 917519989}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -863}
+  m_SizeDelta: {x: 505.9539, y: 89.5363}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1972581555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972581553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1972581556}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 917519988}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 897557917}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &1972581556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972581553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1972581557
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972581553}
+  m_CullTransparentMesh: 1
 --- !u!1 &1994598055
 GameObject:
   m_ObjectHideFlags: 0
@@ -9518,7 +10095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9564,6 +10141,152 @@ RectTransform:
   m_AnchoredPosition: {x: 537.87177, y: -178.53625}
   m_SizeDelta: {x: 655.4721, y: 1486.6399}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2038348605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2038348606}
+  - component: {fileID: 2038348609}
+  - component: {fileID: 2038348608}
+  - component: {fileID: 2038348607}
+  m_Layer: 5
+  m_Name: Button (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2038348606
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038348605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1520707719}
+  m_Father: {fileID: 897557918}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -441.4, y: 839.1}
+  m_SizeDelta: {x: 145.0883, y: 98.9666}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2038348607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038348605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2038348608}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 897557917}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 917519988}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &2038348608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038348605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2038348609
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038348605}
+  m_CullTransparentMesh: 1
 --- !u!1 &2041003530
 GameObject:
   m_ObjectHideFlags: 0
@@ -9625,13 +10348,13 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.52624935, g: 0.8396226, b: 0.0039604935, a: 1}
+    m_NormalColor: {r: 0.52624935, g: 0.8396226, b: 0.0039604935, a: 0.1254902}
     m_HighlightedColor: {r: 0.11399722, g: 1, b: 0, a: 1}
     m_PressedColor: {r: 0, g: 1, b: 0.34294772, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
+    m_FadeDuration: 2
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -10058,48 +10781,50 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\r\nSobrevivir en el bosque puede ser un desaf\xEDo, pero con los pasos
-    correctos, puedes aumentar tus posibilidades de supervivencia. Aqu\xED hay algunos
-    consejos clave para dar tus primeros pasos en un entorno boscoso:\r\n\r\nEval\xFAa
-    tu entorno: Antes de hacer cualquier cosa, t\xF3mate un momento para observar
-    y comprender tu entorno. Identifica los recursos naturales cercanos, como fuentes
-    de agua, alimentos y materiales para construir refugios.\r\n\r\nEncuentra o construye
-    refugio: El refugio es crucial para protegerte de los elementos y los posibles
-    peligros. Busca una cueva natural, un \xE1rea con vegetaci\xF3n densa o construye
-    un refugio improvisado con ramas y hojas.\r\n\r\nBusca agua potable: El agua
-    es esencial para la supervivencia. Busca arroyos, r\xEDos o lagos, pero aseg\xFArate
-    de purificar el agua antes de beberla. Puedes hervirla o usar filtros improvisados
-    hechos con arena y carb\xF3n.\r\n\r\nAprende a encender fuego: El fuego proporciona
-    calor, luz y la capacidad de cocinar alimentos. Aprende t\xE9cnicas de encendido
-    de fuego, como el m\xE9todo del arco y taladro, o lleva contigo cerillas o un
-    encendedor resistente al agua.\r\n\r\nObt\xE9n alimentos: Familiar\xEDzate con
-    las plantas comestibles y los m\xE9todos de caza o pesca en tu \xE1rea. Aseg\xFArate
-    de conocer las especies de plantas y animales venenosos para evitar consumirlos.\r\n\r\nOrientaci\xF3n:
-    Aprende a leer los signos naturales para orientarte. Puedes utilizar el sol,
-    las estrellas, los patrones de la vegetaci\xF3n y las formaciones geol\xF3gicas
-    para mantener una idea de tu ubicaci\xF3n.\r\n\r\nMant\xE9n la calma y conserva
-    energ\xEDa: La ansiedad y el p\xE1nico pueden agotar r\xE1pidamente tus reservas
-    de energ\xEDa. Mant\xE9n la calma y prioriza tus acciones. Cons\xE9rvala, ya
-    que no sabes cu\xE1nto tiempo puede durar tu situaci\xF3n.\r\n\r\nPrep\xE1rate
-    para condiciones clim\xE1ticas adversas: El clima en el bosque puede cambiar
-    r\xE1pidamente. Aseg\xFArate de tener ropa adecuada para protegerte del fr\xEDo,
-    la lluvia o el calor excesivo.\r\n\r\nMant\xE9n una actitud positiva y persevera:
-    La supervivencia en el bosque puede ser desafiante, pero mantener una mentalidad
-    positiva y perseverar es fundamental. Mant\xE9n la esperanza y utiliza tu ingenio
-    para enfrentar cualquier obst\xE1culo que encuentres.\r\n\r\nRecuerda, estos
-    pasos son solo una introducci\xF3n b\xE1sica a la supervivencia en el bosque.
-    Siempre es recomendable obtener conocimientos y habilidades especializadas antes
-    de aventurarse en un entorno tan exigente."
+  m_Text: "Cuando te encuentras en una situaci\xF3n de supervivencia en el desierto,
+    es crucial tomar medidas inmediatas para garantizar tu supervivencia y aumentar
+    tus posibilidades de ser rescatado. Aqu\xED tienes algunos primeros pasos para
+    la supervivencia en el desierto:\r\n\r\nEncuentra sombra y refugio: El calor
+    extremo del desierto puede ser peligroso, por lo que es esencial buscar sombra
+    y refugio para protegerte del sol. Busca rocas, arbustos u otras formaciones
+    naturales que puedan proporcionar sombra. Si no encuentras refugio natural, puedes
+    construir uno improvisado utilizando lonas, mantas o cualquier material que tengas
+    a mano.\r\n\r\nMantente hidratado: La deshidrataci\xF3n es una amenaza seria
+    en el desierto. Busca fuentes de agua como arroyos, manantiales o cactus (si
+    es seguro) y bebe peque\xF1as cantidades de agua con regularidad. Si no encuentras
+    agua, puedes buscar plantas que puedan contener l\xEDquido o atrapar el roc\xEDo
+    de la ma\xF1ana con un pa\xF1o limpio o tu ropa y exprimirlo en un recipiente.\r\n\r\nConserva
+    la energ\xEDa: El calor del desierto puede agotar r\xE1pidamente tu energ\xEDa.
+    Descansa regularmente y evita realizar actividades f\xEDsicas extenuantes durante
+    las horas m\xE1s calurosas del d\xEDa. Si es necesario moverte, hazlo lentamente
+    y con cuidado para evitar el agotamiento.\r\n\r\nBusca alimentos: Aprende a identificar
+    plantas comestibles y busca frutas, semillas o insectos que puedas consumir de
+    forma segura. Evita comer plantas desconocidas o animales que no puedas identificar
+    correctamente, ya que podr\xEDan ser venenosos. Tambi\xE9n puedes intentar atrapar
+    peque\xF1os animales o buscar rastros de vida silvestre que puedan indicar una
+    fuente de alimento.\r\n\r\nProtege tu cuerpo: Viste ropa adecuada para protegerte
+    del sol y del calor intenso. Usa ropa de manga larga, pantalones largos y un
+    sombrero de ala ancha para proteger tu piel del sol. Considera usar ropa de colores
+    claros que refleje el calor y evite el uso de colores oscuros que lo absorban.\r\n\r\nUtiliza
+    se\xF1ales de socorro: Si te encuentras en una situaci\xF3n de emergencia y necesitas
+    ayuda, utiliza se\xF1ales visuales y ac\xFAsticas para llamar la atenci\xF3n
+    de posibles rescatistas. Crea se\xF1ales de humo durante el d\xEDa o enciende
+    una fogata controlada por la noche. Utiliza un silbato, una bocina o cualquier
+    objeto que produzca sonidos fuertes y repetitivos.\r\n\r\nMant\xE9n una actitud
+    mental positiva: La supervivencia en el desierto puede ser desafiante, pero mantener
+    una actitud positiva es fundamental. Mant\xE9n la calma, enf\xF3cate en las tareas
+    necesarias y mant\xE9n la esperanza de ser rescatado. Mantener una mentalidad
+    positiva aumentar\xE1 tus posibilidades de sobrevivir."
 --- !u!222 &2069487043
 CanvasRenderer:
   m_ObjectHideFlags: 0
